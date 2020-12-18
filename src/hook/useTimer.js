@@ -21,8 +21,7 @@ const useTimer = (initialState = 0) => {
         if (counter === 1)
             setTimeout(() => {
                 handleWait()
-            }, 300);
-        setTimeout("counter = 0", 300)
+            }, 300)
     }
 
     function handleWait() {
@@ -49,7 +48,6 @@ const useTimer = (initialState = 0) => {
         isActive,
         isPaused,
         handleStart,
-        handleWait,
         handleStop,
         handleReset,
         wait

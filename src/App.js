@@ -5,7 +5,7 @@ import Info from "./components/Info";
 function App() {
     return (
         <div>
-            <Timer/>
+            <Timer />
             <Info />
         </div>
     );
